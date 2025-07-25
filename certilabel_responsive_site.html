@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certilabel | Labeling Local, Growing Global</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            line-height: 1.6;
+            color: #2e2e2e;
+            background-color: #f7f6f2;
+        }
+        header {
+            background: #e0e6dc;
+            color: #2e2e2e;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.8em;
+        }
+        header p {
+            font-size: 1.1em;
+            margin-top: 10px;
+        }
+        nav {
+            background: #c2c7b0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 10px;
+        }
+        nav a {
+            margin: 5px 15px;
+            text-decoration: none;
+            color: #2e2e2e;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .section-title {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .service-box {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            flex: 1 1 250px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            max-width: 280px;
+        }
+        form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            max-width: 500px;
+            margin: auto;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-family: inherit;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #607d3b;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #4e682f;
+        }
+        footer {
+            background: #c2c7b0;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2.2em;
+            }
+            .service-box {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CERTILABEL</h1>
+        <p>Labeling Local, Growing Global</p>
+        <p>📦 Professional food labeling & compliance for local food brands</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2 class="section-title">Who We Are</h2>
+        <p>
+            Certilabel is a startup helping local food entrepreneurs get retail-ready with compliant,
+            well-designed product labels. Whether you make pickles, masalas, snacks, or juices — we ensure
+            your packaging is clear, trustworthy, and legal.
+        </p>
+    </section>
+
+    <section id="services">
+        <h2 class="section-title">Our Services</h2>
+        <div class="services">
+            <div class="service-box">
+                <h3>🎨 Custom Label Design</h3>
+                <p>From minimal to vibrant, we craft labels that suit your brand.</p>
+            </div>
+            <div class="service-box">
+                <h3>📝 FSSAI & Compliance Help</h3>
+                <p>We help you meet all labeling rules — ingredients, nutrition panels, and more.</p>
+            </div>
+            <div class="service-box">
+                <h3>🔗 Barcode / QR Setup</h3>
+                <p>For seamless retail and scanning, we get you product-ready.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Let’s Label Your Product</h2>
+        <form>
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="business">Business Name</label>
+            <input type="text" id="business" name="business">
+
+            <label for="product">Product Type</label>
+            <input type="text" id="product" name="product">
+
+            <label for="contact">Email or WhatsApp</label>
+            <input type="text" id="contact" name="contact" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5"></textarea>
+
+            <button type="submit">Send Inquiry</button>
+        </form>
+    </section>
+
+    <footer>
+        © 2025 Certilabel. All rights reserved.
+    </footer>
+</body>
+</html>
